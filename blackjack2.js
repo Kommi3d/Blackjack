@@ -27,7 +27,7 @@ function calcularPuntuacion(mano) {
 // Función para mostrar la mano y la puntuación
 function mostrarMano(mano, jugador = 'Jugador') {
     console.log(`${jugador}: ${mano.join(', ')} (Puntuación: ${calcularPuntuacion(mano)})`);
-}
+}d
 
 // Función principal del juego
 function jugarBlackjack() {
